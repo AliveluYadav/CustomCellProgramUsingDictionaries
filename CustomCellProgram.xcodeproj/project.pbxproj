@@ -14,6 +14,12 @@
 		D42A230B2076054D008E32B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42A23092076054D008E32B4 /* LaunchScreen.storyboard */; };
 		D42A23162076054D008E32B4 /* CustomCellProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A23152076054D008E32B4 /* CustomCellProgramTests.swift */; };
 		D42A23212076054D008E32B4 /* CustomCellProgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A23202076054D008E32B4 /* CustomCellProgramUITests.swift */; };
+		D42A23302076086B008E32B4 /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A232E2076086B008E32B4 /* Actors.swift */; };
+		D42A23312076086B008E32B4 /* Actors.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42A232F2076086B008E32B4 /* Actors.xib */; };
+		D47097A82076343F00CB2113 /* Politicians.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47097A62076343E00CB2113 /* Politicians.swift */; };
+		D47097A92076343F00CB2113 /* Politicians.xib in Resources */ = {isa = PBXBuildFile; fileRef = D47097A72076343F00CB2113 /* Politicians.xib */; };
+		D47097AC2076346800CB2113 /* Cricketers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47097AA2076346800CB2113 /* Cricketers.swift */; };
+		D47097AD2076346800CB2113 /* Cricketers.xib in Resources */ = {isa = PBXBuildFile; fileRef = D47097AB2076346800CB2113 /* Cricketers.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		D42A231C2076054D008E32B4 /* CustomCellProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42A23202076054D008E32B4 /* CustomCellProgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellProgramUITests.swift; sourceTree = "<group>"; };
 		D42A23222076054D008E32B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42A232E2076086B008E32B4 /* Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
+		D42A232F2076086B008E32B4 /* Actors.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Actors.xib; sourceTree = "<group>"; };
+		D47097A62076343E00CB2113 /* Politicians.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Politicians.swift; sourceTree = "<group>"; };
+		D47097A72076343F00CB2113 /* Politicians.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Politicians.xib; sourceTree = "<group>"; };
+		D47097AA2076346800CB2113 /* Cricketers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cricketers.swift; sourceTree = "<group>"; };
+		D47097AB2076346800CB2113 /* Cricketers.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cricketers.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				D42A23072076054D008E32B4 /* Assets.xcassets */,
 				D42A23092076054D008E32B4 /* LaunchScreen.storyboard */,
 				D42A230C2076054D008E32B4 /* Info.plist */,
+				D42A232E2076086B008E32B4 /* Actors.swift */,
+				D42A232F2076086B008E32B4 /* Actors.xib */,
+				D47097A62076343E00CB2113 /* Politicians.swift */,
+				D47097A72076343F00CB2113 /* Politicians.xib */,
+				D47097AA2076346800CB2113 /* Cricketers.swift */,
+				D47097AB2076346800CB2113 /* Cricketers.xib */,
 			);
 			path = CustomCellProgram;
 			sourceTree = "<group>";
@@ -235,6 +253,9 @@
 				D42A230B2076054D008E32B4 /* LaunchScreen.storyboard in Resources */,
 				D42A23082076054D008E32B4 /* Assets.xcassets in Resources */,
 				D42A23062076054D008E32B4 /* Main.storyboard in Resources */,
+				D42A23312076086B008E32B4 /* Actors.xib in Resources */,
+				D47097AD2076346800CB2113 /* Cricketers.xib in Resources */,
+				D47097A92076343F00CB2113 /* Politicians.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47097AC2076346800CB2113 /* Cricketers.swift in Sources */,
+				D42A23302076086B008E32B4 /* Actors.swift in Sources */,
 				D42A23032076054D008E32B4 /* ViewController.swift in Sources */,
 				D42A23012076054D008E32B4 /* AppDelegate.swift in Sources */,
+				D47097A82076343F00CB2113 /* Politicians.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
